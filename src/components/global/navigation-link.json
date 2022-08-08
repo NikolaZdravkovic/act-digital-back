@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_navigation_links",
+  "info": {
+    "displayName": "navigationLink",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

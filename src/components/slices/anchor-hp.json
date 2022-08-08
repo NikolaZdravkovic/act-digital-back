@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_slices_anchor_hps",
+  "info": {
+    "displayName": "anchorHp",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

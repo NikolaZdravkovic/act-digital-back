@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_navigation_languages",
+  "info": {
+    "displayName": "NavigationLanguage",
+    "icon": "language",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

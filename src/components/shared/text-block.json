@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_text_blocks",
+  "info": {
+    "displayName": "textBlock",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
