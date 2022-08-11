@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_global_navigation_links",
+  "collectionName": "components_shared_links",
   "info": {
-    "displayName": "navigationLink",
+    "displayName": "Link",
     "icon": "link"
   },
   "options": {},

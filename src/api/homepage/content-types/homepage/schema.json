@@ -55,6 +55,56 @@
         }
       },
       "component": "slices.industries-hp"
+    },
+    "expertiesHP": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "slices.experties-hp"
+    },
+    "caseStudiesHP": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.case-studies-block"
+    },
+    "newsBlockHP": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.news-block"
+    },
+    "clientsBlockHP": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.clients-block"
+    },
+    "contactBlockHP": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.contact-block"
     }
   }
 }

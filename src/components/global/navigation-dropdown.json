@@ -8,11 +8,6 @@
   "attributes": {
     "label": {
       "type": "string"
-    },
-    "subLink": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.navigation-link"
     }
   }
 }

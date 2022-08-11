@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slices_experties_hps",
+  "info": {
+    "displayName": "expertiesHP",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

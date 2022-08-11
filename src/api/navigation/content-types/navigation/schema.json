@@ -24,8 +24,8 @@
       },
       "type": "dynamiczone",
       "components": [
-        "global.navigation-link",
-        "global.navigation-dropdown"
+        "global.navigation-dropdown",
+        "shared.link"
       ]
     },
     "language": {
@@ -36,7 +36,7 @@
       },
       "type": "dynamiczone",
       "components": [
-        "global.navigation-language"
+        "shared.link"
       ]
     }
   }

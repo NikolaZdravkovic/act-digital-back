@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_case_studies_blocks",
+  "info": {
+    "displayName": "caseStudiesBlock",
+    "icon": "suitcase-rolling"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
