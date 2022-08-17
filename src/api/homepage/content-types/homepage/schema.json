@@ -105,6 +105,16 @@
         }
       },
       "component": "shared.contact-block"
+    },
+    "aproachHP": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "slices.aproach-hp"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slices_aproach_hps",
+  "info": {
+    "displayName": "aproachHp",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
