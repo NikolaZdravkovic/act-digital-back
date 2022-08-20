@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_shared_contact_blocks",
+  "collectionName": "components_global_contact_blocks",
   "info": {
     "displayName": "contactBlock",
-    "icon": "mail-bulk"
+    "icon": "mail-bulk",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,14 +14,15 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
