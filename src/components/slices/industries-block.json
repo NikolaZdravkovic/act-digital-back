@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slices_industries_blocks",
+  "info": {
+    "displayName": "industriesBlock",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

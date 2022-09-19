@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "industries_pages",
+  "info": {
+    "singularName": "industries-page",
+    "pluralName": "industries-pages",
+    "displayName": "IndustriesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "industriesBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.industries-block"
+    },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.case-studies-block"
+    },
+    "newsBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.news-block"
+    },
+    "clientsBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.clients-block"
+    },
+    "contactBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.contact-block"
+    }
+  }
+}
