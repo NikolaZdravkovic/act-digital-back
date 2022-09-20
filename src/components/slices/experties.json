@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_slices_experties",
+  "info": {
+    "displayName": "Experties",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
