@@ -12,6 +12,11 @@
     },
     "href": {
       "type": "string"
+    },
+    "subLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
     }
   }
 }
