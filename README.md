@@ -1,57 +1,68 @@
-# 🚀 Getting started with Strapi
+### `clone project`
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+```
+git clone https://github.com/NikolaZdravkovic/act-digital-back.git
+```
 
-### `develop`
+### `install`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+Go to source folder and install npm/yarn package
+
+```
+npm install
+# or
+yarn install
+```
+Run (if needed)
+
+```
+npm audit fix
+```
+### `create .env file`
+Create .env file inside project and setup environment keys
+
+## ✨  Setup editor js
+inside project go to **cd src/plugins/strapi-plugin-react-editorjs**
+Run : 
+
+```
+npm install
+```
+After npm is installed for Editor js , go back to main strapi folder
+Run : 
+
+```
+npm run build 
+# and then 
+npm run develop
+```
+
+After Strapi is up, stop running Strapi for setting the **database** in next step 
+Press :
+
+```
+'Control'+'c' keys on your keyboard to quit strapi server
+```
+
+## 📚 Setup database
+Search for **.tmp folder** inside project and copy the **data.db**
+If **.tmp** folder is hidden inside project do next thing 
+
+```
+1. Open the folder where you want to search for hidden files.
+2. Press the “Command” + “Shift” + “.” (period) keys at the same time.
+3. The hidden files will show up as translucent in the folder.
+````
+Now go to **.tmp** folder and copy given **data.db** and replace with new database
+
+### `run strapi`
+
+Go to main source folder and start strapi
 
 ```
 npm run develop
-# or
-yarn develop
 ```
+### `login to your strapi account`
+Go to **http://localhost:1337/admin** and login
 
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## ✨ Enjoy!
