@@ -36,16 +36,6 @@
       },
       "component": "slices.experties"
     },
-    "caseStudies": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.case-studies-block"
-    },
     "newsBlock": {
       "type": "component",
       "repeatable": true,
@@ -75,6 +65,16 @@
         }
       },
       "component": "global.contact-block"
+    },
+    "caseStudiesBlock": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.case-studie-block"
     }
   }
 }

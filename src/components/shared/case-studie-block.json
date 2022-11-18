@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_case_studie_blocks",
+  "info": {
+    "displayName": "CaseStudieBlock",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "case_studies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-studie.case-studie"
+    }
+  }
+}
