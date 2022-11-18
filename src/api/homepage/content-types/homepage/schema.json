@@ -36,16 +36,6 @@
       },
       "component": "slices.anchor-hp"
     },
-    "textBlock": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.text-block"
-    },
     "industriesHP": {
       "type": "component",
       "repeatable": true,
@@ -115,6 +105,16 @@
         }
       },
       "component": "global.contact-block"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.text"
     }
   }
 }

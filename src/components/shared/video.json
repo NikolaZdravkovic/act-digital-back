@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_videos",
+  "info": {
+    "displayName": "video",
+    "icon": "caret-square-right"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

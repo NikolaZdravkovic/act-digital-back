@@ -26,16 +26,6 @@
       },
       "component": "shared.hero"
     },
-    "textBlock": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.text-block"
-    },
     "contactBlock": {
       "type": "component",
       "repeatable": false,
@@ -45,6 +35,26 @@
         }
       },
       "component": "global.contact-block"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.image"
     }
   }
 }
