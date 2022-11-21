@@ -4,7 +4,7 @@
   "info": {
     "singularName": "case-studie",
     "pluralName": "case-studies",
-    "displayName": "case-studie",
+    "displayName": "Case-studie",
     "description": ""
   },
   "options": {
@@ -99,6 +99,12 @@
         "shared.image",
         "shared.video"
       ]
+    },
+    "case_studies": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "case_studies"
     }
   }
 }

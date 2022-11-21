@@ -41,6 +41,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.contact-block"
+    },
+    "caseStudiesBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.case-studie-block"
     }
   }
 }
