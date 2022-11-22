@@ -22,11 +22,6 @@
       "repeatable": true,
       "component": "slices.industries-block"
     },
-    "caseStudies": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.case-studies-block"
-    },
     "newsBlock": {
       "type": "component",
       "repeatable": true,

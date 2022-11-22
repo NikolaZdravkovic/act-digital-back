@@ -2,19 +2,21 @@
   "collectionName": "components_shared_clients_blocks",
   "info": {
     "displayName": "clientsBlock",
-    "icon": "money-check-alt"
+    "icon": "money-check-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
