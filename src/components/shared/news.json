@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_news",
+  "info": {
+    "displayName": "News",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "news": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::insight.insight"
+    }
+  }
+}

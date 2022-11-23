@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "case_studies",
+  "collectionName": "insights",
   "info": {
-    "singularName": "case-studie",
-    "pluralName": "case-studies",
-    "displayName": "Case-studie",
-    "description": ""
+    "singularName": "insight",
+    "pluralName": "insights",
+    "displayName": "Insight"
   },
   "options": {
     "draftAndPublish": true
@@ -42,30 +41,19 @@
       "targetField": "title"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
-    },
-    "contactBlock": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "global.contact-block"
     },
     "content": {
       "pluginOptions": {
@@ -76,19 +64,29 @@
       "type": "dynamiczone",
       "components": [
         "shared.image-carousel",
-        "shared.text",
-        "shared.embed",
         "shared.image",
-        "shared.video"
+        "shared.text",
+        "shared.video",
+        "shared.embed"
       ]
     },
-    "case_studies": {
+    "newsBlock": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.news-block"
+    },
+    "news": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
-      "inversedBy": "case_studies"
+      "inversedBy": "insights"
     },
-    "news": {
+    "contactBlock": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -96,7 +94,7 @@
           "localized": true
         }
       },
-      "component": "shared.news"
+      "component": "global.contact-block"
     }
   }
 }

@@ -115,6 +115,16 @@
         }
       },
       "component": "shared.case-studie-block"
+    },
+    "news": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.news"
     }
   }
 }

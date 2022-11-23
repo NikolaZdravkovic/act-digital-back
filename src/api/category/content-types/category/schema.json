@@ -37,6 +37,12 @@
       "relation": "oneToMany",
       "target": "api::case-studie.case-studie",
       "mappedBy": "case_studies"
+    },
+    "insights": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::insight.insight",
+      "mappedBy": "news"
     }
   }
 }
