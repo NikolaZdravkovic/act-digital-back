@@ -4,7 +4,8 @@
   "info": {
     "singularName": "insight",
     "pluralName": "insights",
-    "displayName": "Insight"
+    "displayName": "Insight",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -41,14 +42,15 @@
       "targetField": "title"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -67,20 +69,11 @@
         "shared.image",
         "shared.text",
         "shared.video",
-        "shared.embed"
+        "shared.embed",
+        "shared.qoutes"
       ]
     },
-    "newsBlock": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.news-block"
-    },
-    "news": {
+    "category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::category.category",
@@ -95,6 +88,17 @@
         }
       },
       "component": "global.contact-block"
+    },
+    "newsInsights": {
+      "displayName": "newsInsights",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "slices.news-insights"
     }
   }
 }

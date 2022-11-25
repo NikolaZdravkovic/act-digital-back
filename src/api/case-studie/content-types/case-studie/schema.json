@@ -79,7 +79,9 @@
         "shared.text",
         "shared.embed",
         "shared.image",
-        "shared.video"
+        "shared.video",
+        "slices.blocks",
+        "shared.qoutes"
       ]
     },
     "case_studies": {

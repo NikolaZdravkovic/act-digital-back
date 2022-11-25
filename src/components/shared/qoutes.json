@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_qoutes",
+  "info": {
+    "displayName": "qoutes",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

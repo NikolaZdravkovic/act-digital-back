@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slices_blocks",
+  "info": {
+    "displayName": "blocks",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

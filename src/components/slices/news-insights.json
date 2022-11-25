@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_slices_news_insights",
+  "info": {
+    "displayName": "newsInsights",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "insights": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::insight.insight"
+    }
+  }
+}

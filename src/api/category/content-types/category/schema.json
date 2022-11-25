@@ -42,7 +42,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::insight.insight",
-      "mappedBy": "news"
+      "mappedBy": "category"
     }
   }
 }
